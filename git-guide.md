@@ -17,3 +17,24 @@ git clone https://github.com/my-user/my-repo-name.git
 ```
 git add .
 ```
+<h3> Save Change in Git</h3>
+
+<p> To save the added changed into history, commit with a useful descriptive message</p>
+
+```
+git config --global core.editor "code --wait" 
+*for atom replace code with atom*
+```
+<h4>Review Changed Before Committing</h4>
+To view changed that have not been added
+
+```
+git diff
+```
+
+To review changes that
+have been added:
+
+```
+git diff --staged
+```
